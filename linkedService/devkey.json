@@ -1,0 +1,11 @@
+{
+	"name": "devkey",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://devkeyvau.vault.azure.net/"
+		}
+	}
+}
